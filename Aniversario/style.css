@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #333;
+}
+
+.contenedor{
+    width: 80vmax;
+    height: 100vmax;
+    border: 2px solid black;
+    background: url(Valentine\ Patterns\ iPhone\ Wallpaper\ HD\ -\ iPhone\ Wallpapers.jpeg);
+    background-size: cover;
+    overflow-y: auto;
+    border: 2px solid #fff;
+    box-shadow: -3px 3px 10px #fff;
+}
+
+.contenido{
+    width: 100%;
+    height: 1500px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.mensaje{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    padding: 2vmin 8vmin;
+    margin: 20px;
+    background-color: rgb(47, 126, 165);
+    color: #fff;
+    transition: 1s ease ;
+}
+
+.mensaje2{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    padding: 2vmin 8vmin;
+    margin: 20px;
+    background-color: rgb(47, 126, 165);
+    color: #fff;
+    transition: 1s ease ;
+}
+
+.mensaje3{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    padding: 2vmin 8vmin;
+    margin: 20px;
+    background-color: rgb(47, 126, 165);
+    color: #fff;
+    transition: 1s ease ;
+}
+.mensaje4{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    padding: 2vmin 8vmin;
+    margin: 20px;
+    background-color: rgb(47, 126, 165);
+    color: #fff;
+    transition: 1s ease ;
+}
+
+.mensaje5{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    padding: 2vmin 8vmin;
+    margin: 20px;
+    background-color: rgb(47, 126, 165);
+    color: #fff;
+    transition: 1s ease ;
+}
+
+.mensaje6{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    padding: 2vmin 8vmin;
+    margin: 20px;
+    background-color: rgb(47, 126, 165);
+    color: #fff;
+    transition: 1s ease ;
+}
+
+.mensaje7{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    padding: 2vmin 8vmin;
+    margin: 20px;
+    background-color: rgb(47, 126, 165);
+    color: #fff;
+    transition: 1s ease ;
+}
+
+
+button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    padding: 2vmin 8vmin;
+    margin: 20px;
+    background-color: rgb(47, 126, 165);
+    color: #fff;
+    transition: 1s ease ;
+    border-radius: 20px;
+    border: none;
+}
+
+button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+#heart{
+    background: black;
+    font-size: 5rem;
+    text-shadow: 0 0 20px red;
+}
+
+#kiss{
+    background: black;
+    font-size: 5rem;
+}
+
+#love{
+    background: black;
+    font-size: 5rem;
+}
+
+
